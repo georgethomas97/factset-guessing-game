@@ -48,7 +48,7 @@ public class GameClient {
 
     //used to generate the random number
     private int generateNumber() {
-        int number = (int) (1 + (9 * Math.random()));
+        int number = (int) (1 + Math.ceil(9 * Math.random()));
         return number;
     }
 
