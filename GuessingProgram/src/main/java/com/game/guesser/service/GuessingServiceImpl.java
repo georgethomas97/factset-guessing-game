@@ -43,7 +43,7 @@ public class GuessingServiceImpl {
                 index = "second";
                 break;
             case 2:
-                index = "third";
+                index = "last";
                 break;
             default:
         }
