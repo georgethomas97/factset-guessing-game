@@ -1,0 +1,26 @@
+.page {
+	background-color: #c0c0c0;
+}
+.basePage {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(0, -50%);
+	margin: auto;
+	background-color: rgb(255, 122, 89);
+	width: 50%;
+	border: 3px solid black;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+}
+
+.guessingGame {
+	margin: auto;
+	background-color: #ffff80;
+	width: 50%;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+}
