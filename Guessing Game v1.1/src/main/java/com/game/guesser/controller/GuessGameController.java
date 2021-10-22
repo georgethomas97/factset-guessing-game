@@ -11,7 +11,7 @@ import com.game.guesser.client.GuessingClient;
 public class GuessGameController {
 	
 	@Autowired
-	GuessingClient guessClient;
+	private GuessingClient guessClient;
 	
 	@RequestMapping("/index")
 	public ModelAndView index() {
