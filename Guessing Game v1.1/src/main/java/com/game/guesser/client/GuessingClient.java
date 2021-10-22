@@ -12,7 +12,7 @@ public class GuessingClient extends Thread {
 	private int count = 0;
 
 	@Autowired
-	GuessingServiceImpl guessService;
+	private GuessingServiceImpl guessService;
 
 	// This function takes input and sends it to be processed and checks whether game should be terminated.
 	public String startGame(int guessValue) {
